@@ -1,7 +1,9 @@
 Test task for Gaijin Entertainment, project Age of Water
 
-# Task - implement wide bullet smoke trail via mesh which is build as bullet is flying.
-Each new mesh segment is added as bullet is passed through fixed length (segmentLength). Each segment must be rotating towards dynamic camera. Setting of UV, vertex colors is not required. Pay attention to memory data management, object count and draw calls. Usage of Unity built-in TrailRenderer is prohibited, the task is in implementing same component from scratch. To draw built mesh MeshRenderer must be used. Implement solution and propose optimization ideas in case of many trails.
+Unity 2021.1.3f1
+
+# Task - implement a wide smoke trail via mesh which is build as bullets are flying.
+Each new mesh segment is added as bullet is passed through fixed length (segmentLength). Each segment must be rotated towards dynamic camera. UV, vertex color computation is not required. Pay attention to memory data management, object count and draw calls. Usage of Unity built-in TrailRenderer is prohibited, the goal of the task is to implementi same behaviour from scratch. To draw built mesh MeshRenderer must be used. Implement solution and propose optimization ideas in case of many trails.
 
 # Result
 Task completion took 10 hours. 
